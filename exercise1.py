@@ -1,5 +1,5 @@
 # --------------------------------------------------------------------------------------------------------------------------
-# Ana de la Cerda Galvan ------- Exercise 31 - NHL REQUERIMENTS  ------------------------------------------------------------
+# Ana de la Cerda Galvan ------- Exercise 1 - NHL REQUERIMENTS  ------------------------------------------------------------
 # There is some Spanish code inside, I introduced them while I studied the code to be clear of what id does en every step
 #---------------------------------------------------------------------------------------------------------------------------
 #  BUG

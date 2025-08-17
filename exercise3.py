@@ -1,11 +1,17 @@
+# --------------------------------------------------------------------------------------------------------------------------
+# Ana de la Cerda Galvan ------- Exercise 3 - NHL REQUERIMENTS  ------------------------------------------------------------
+# There is some Spanish code inside, I introduced them while I studied the code to be clear of what id does en every step
+#---------------------------------------------------------------------------------------------------------------------------
+# STRUCTURE BUG
 # I found the following mistakes in the code:
 # 1)The laber of the coordanates are mixed, I changed them x= Presicion and y= Recall
 # 2)They were using a 2D array of String when they should be float, I converted its type using map to convert every elem and then list to conver it in a list.
+#---------------------------------------------------------------------------------------------------------------------------
 # POSSIBLE IMPROVEMENTS: 
 # 1) The function didin't control any possible mistake in the csv file, because the missed of the header --> (None)
 # 2) We would need to considerate also the lenght of each row ( the user could introduce row of diffenet lenghts) to be able to use np.stack else it would return a error message
-# I dind't do it bucause I'm not sure about how much I can change the code, but I think we need a vble "longitud" and check every loop the currently lenght is the same of the nexr row.
-# 3)I added some Matplotlib functions for the graphin: plt.grid(True) --> show the gride and plt.tight_layout --> margins
+# I dind't do it bucause I'm not sure about how much I can change the code, but I think we need a vble "longitud" and check every loop the currently lenght is the same of the nexT row.
+# 3)I also added some Matplotlib functions for the graphin: plt.grid(True) --> show the gride and plt.tight_layout --> margins
 # 4)On Windows, newline="" is used to prevent extra blank lines in the CSV.
 
 
